@@ -23,7 +23,7 @@ function createAssignment(assignmentName){
                             </div>
                         </div>
                         <div class="button-container">
-                            <button class="delete-button">D</button>
+                            <button class="delete-button"><i class="fa fa-trash-o fa-2x"></i></button>
                         </div>
                         `;
     return element;

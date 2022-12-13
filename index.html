@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Assignment Grade Calculator</title>
 </head>
 <body>
     <div class="card">
         <div id="card-title">
-            <h2 id="title-h">Assignment List</h2>
+            <h2 id="title-h">ASSIGNMENT LIST</h2>
         </div>
         <div id="list-div">
             <ul id="main-list">
@@ -23,7 +25,7 @@
                         </div>
                     </div>
                     <div class="button-container">
-                        <button class="delete-button">D</button>
+                        <button class="delete-button"><i class="fa fa-trash-o fa-2x"></i></button>
                     </div>
                 </li>
             </ul>
@@ -31,11 +33,11 @@
         <div class="bottom-container">
             <div id="name-container">
                 <input id="name-input" placeholder="Assignment Name">
-                <button id="add-button">ADD</button>
+                <button id="add-button"><i class="fa fa-plus fa-2x" aria-hidden="true"></i></button>
             </div>
             <div class="calculate-container">
                 <input class="target-grade-input" placeholder="Desired grade (target Grade)">
-                <button id="calculate-button">CALCULATE</button>
+                <button id="calculate-button"><i class="fa fa-calculator fa-2x" aria-hidden="true"></i></button>
             </div>
         </div>
     </div>
