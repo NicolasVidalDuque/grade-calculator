@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Assignment Grade Calculator</title>
+</head>
+<body>
+    <div class="card">
+        <div id="card-title">
+            <h2 id="title-h">Assignment List</h2>
+        </div>
+        <div id="list-div">
+            <ul id="main-list">
+                <li class="assignment-item" id="grade-1">
+                    <div class="content-container">
+                        <h4 class="assignment-name">Calculus_II</h4>
+                        <div class="input-container">
+                            <input class="assignment-weight" placeholder="Weight [%]">
+                            <input class="assignment-grade" placeholder="Grade [5]">
+                        </div>
+                    </div>
+                    <div class="button-container">
+                        <button class="delete-button">D</button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="bottom-container">
+            <div id="name-container">
+                <input id="name-input" placeholder="Assignment Name">
+                <button id="add-button">ADD</button>
+            </div>
+            <div class="calculate-container">
+                <input class="target-grade-input" placeholder="Desired grade (target Grade)">
+                <button id="calculate-button">CALCULATE</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
