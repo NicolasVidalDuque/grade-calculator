@@ -1,0 +1,124 @@
+html{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #a3ffff;
+}
+
+.card{
+    background-color: aliceblue;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    height: 98vh;
+}
+
+#card-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 7%;
+}
+
+#list-div{
+    flex-basis: 80%;
+}
+
+ul{
+    padding: 10px;
+    list-style: none;
+}
+
+.assignment-item{
+    display: flex;
+    flex-direction: row;
+    }
+
+.content-container{
+    flex-basis: 85%;
+}
+
+.assignment-name{
+    margin: 10px;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.assignment-weight, .assignment-grade{
+    width: 80px;
+    height: 25px;
+    margin: 10px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 15%;
+}
+
+.delete-button{
+    width: 70%;
+    height: 50%;
+}
+
+.bottom-container{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 13%;
+    }
+
+#name-container, .calculate-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    align-items: center;
+    height: 50%;
+}
+
+#name-input, .target-grade-input {
+    height: 100%;
+    flex-grow: 3;
+    margin: 10px;
+}
+
+#add-button, #calculate-button{
+    flex-grow: 2;
+    height: 100%;
+}
+
+button{
+    cursor: pointer;
+}
+
+@media (min-width: 700px){
+    .card{
+        width: 700px;
+        height: 90vh;
+        margin: 0 auto;
+    }
+
+    .content-container{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .assignment-name{
+        flex-basis:40%;
+        align-self: center;
+    }
+    
+    .input-container{
+        flex-basis: 60%;
+        }
+
+    .delete-button{
+        height: 90%;
+    }
+}
